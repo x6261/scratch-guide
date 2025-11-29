@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Scratch Course</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/guide.css">
+</head>
+
+<body>
+    <header>
+    </header>
+
+    <nav>
+    </nav>
+
+    <div class="sidebar">
+        <div>
+            <a href="/index.html" class="logo-container">
+                <img src="/imgs/block_logo.png" alt="block_logo">
+            </a>
+        </div>
+        <div>
+            <h3>Getting Started</h3>
+            <a href="/guide/what-is-scratch.html">What is Scratch?</a>
+            <a href="/guide/making-an-account.html">Making an account</a>
+            <br>
+            <h3>Tutorials</h3>
+            <a href="/guide/chasing-game.html">Chasing Game</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <article>
+            <h1>Chasing Game</h1>
+            <h2>Make a new project</h2>
+            <p>The “forever” block in the Control tab repeats any code inside it until the project stops. Forever loops 
+                are necessary in most games because they keep essential actions running at all times—such as moving 
+                characters, updating health or score, checking for collisions, playing animations, and responding to 
+                player input. Without a forever loop, these continuous game behaviors wouldn’t function properly.
+            </p>
+            <p>Also in the Control tab, you’ll find the “if () then” block, which is called a conditional. It runs the 
+                code inside only when the condition in the hexagon-shaped slot is true. Conditionals are essential for 
+                decision-making in games, such as checking whether a key is pressed, an enemy is touched, or a score 
+                reaches a certain value.
+            </p>
+            <img src="/imgs/for_and_if_block.png" alt="for_block">
+            <p>Begin by creating a sprite that will serve as your main character. It can be anything you like, but we’ll 
+                use the Parrot sprite. After choosing your sprite, rename it to “Player.” 
+            </p>
+            <p>Inside your “Player” sprite, add the code shown below. These blocks control how your character moves 
+                across the screen. Notice that the values you use in the change x by an d change y by blocks determine 
+                how fast the Player moves. Try experimenting with different numbers or adjusting the layout of your 
+                movement code to customize the feel of your character’s controls. This is a great way to make the 
+                movement match the style of your game.
+            </p>
+            <img src="/imgs/basic_movement_code.png" alt="basic_movement_code">
+            <p>After making the main character, let's go ahead and make the objects that the "Player" will chase. Let's 
+                make a new sprite, or you can choose your own. In this sprite, you will copy the following code inside. 
+            </p>
+            <img src="/imgs/butterfly_code.png" alt="butterfly_code">
+            <p>If you want to make the game more challenging, right-click the sprite that is being chased and select 
+                Duplicate. This creates an identical copy of that sprite. You can repeat this process as many times as 
+                you like to increase the difficulty. After adding the extra sprites, test your game and adjust their 
+                behavior or speed to match the level of challenge you want.
+            </p>
+            <p>Go check out the official sample of this project here: 
+                <a href="https://scratch.mit.edu/projects/1061894325/" target="_blank">Chasing Game</a>
+            </p>
+            
+
+        </article>
+    </div>
+
+    <footer>
+    </footer>
+
+</body>
+
+</html>
