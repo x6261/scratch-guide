@@ -19,10 +19,6 @@ a {
     font-size: 107%
 }
 
-img {
-    height: 300px;
-}
-
 .sidebar {
     height: 100%;
     width: 13%;
@@ -81,3 +77,4 @@ img {
     cursor: pointer;
 
 }
+
