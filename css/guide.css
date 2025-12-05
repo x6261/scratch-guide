@@ -20,7 +20,7 @@ a {
 }
 
 img {
-    height: 300;
+    height: 300px;
 }
 
 .sidebar {
@@ -79,4 +79,5 @@ img {
     margin-left: 14px;
     width: 102px;
     cursor: pointer;
+
 }
