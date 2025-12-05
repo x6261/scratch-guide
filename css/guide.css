@@ -4,19 +4,23 @@ body {
 
 p {
     line-height: 200%;
-    font-size: 107%
+    font-size: 107%;
 }
 
 span {
     line-height: 200%;
-    font-size: 107%
+    font-size: 107%;
 }
 
 a {
     text-decoration: none;
     color: #2490fd;
     line-height: 200%;
-    font-size: 107%
+    font-size: 107%;
+}
+
+img {
+    width: 560px;
 }
 
 .sidebar {
@@ -77,4 +81,5 @@ a {
     cursor: pointer;
 
 }
+
 
